@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@media  screen and (max-width: 480px) {
+     body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+     }
+     .main{
+       /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
+        width: 100%;
+        height: 130vh;
+        display: flex;
+     }
+     .aside{
+        background-color: black;
+        width: 50%;
+        display: none;
+     }
+     .section{
+        background-color: rgb(214, 197, 175);
+        width: 100%;
+     }
+     .section h1{
+        padding-inline: 20px;
+        text-align: center;
+     }
+     .form{
+        padding-inline: 20px;
+        height: 70%;
+        text-align: center;
+
+     }
+     .form input {
+        border-bottom: 2px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: transparent;
+        margin-top: 20px;
+        font-size: 20px;
+        outline: none;
+        font-family: sans-serif;
+        align-items: center;
+        height: 55px;
+        width: 75%
+    }
+    #email-error{
+        display: inline-block;
+    }
+    
+    .div1 {
+        border: 2px solid black;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        margin-inline: 50px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .div1 .fa-cloud-arrow-up {
+        cursor: pointer;
+        justify-content: center;
+    }
+    footer{
+        font-family: 'Franklin Gothic Medium';
+        font-size: 30px;
+        text-align: center;
+       
+    }
+}
+/* design after 481px to 768px */
+@media  screen and (min-width:481px) and (max-width:768px) {
+    .main{
+        /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
+         width: 100%;
+         height: 130vh;
+         display: flex;
+    }
+    .aside{
+        background-color: black;
+        width: 20%;
+    }
+    .aside i{
+            color: white;
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 20px
+    }
+    .aside h1{
+            color: white;
+            margin-top: 33%;
+            font-size: 44px;
+            padding-inline: 20px;
+            text-align: center;
+           }
+           .section{
+            background-color: rgb(214, 197, 175);
+            width: 80%;
+          }
+          .section h1{
+            padding-inline: 20px;
+            text-align: center;
+          }
+          .form{
+            padding-inline: 20px;
+            height: 70%;
+            text-align: center;
+          }
+          .form input {
+            border-bottom: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background: transparent;
+            margin-top: 20px;
+            font-size: 20px;
+            outline: none;
+            font-family: sans-serif;
+            align-items: center;
+            height: 55px;
+            width: 75%
+        }
+        #email-error{
+            display: inline-block;
+        }
+        .div1 {
+            border: 2px solid black;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            margin-inline: 50px;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+         footer{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 30px;
+            text-align: center;
+        }
+}
+    /* media queries after 769px to 1024px */
+    @media  screen and (min-width:769px) and (max-width:1024px) {
+        .main{
+            /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
+             width: 100%;
+             height: 130vh;
+             display: flex;
+          }
+          .aside{
+             background-color: black;
+             width: 30%;
+          }
+          .aside i{
+            color: white;
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 20px
+        }
+        .aside h1{
+            color: white;
+            margin-top: 33%;
+            font-size: 56px;
+            padding-inline: 20px;
+            text-align: center;
+           }
+        
+          .section{
+            background-color: rgb(214, 197, 175);
+            width: 70%;
+          }
+          .section h1{
+            padding-inline: 20px;
+            text-align: center;
+            font-size: 50px;
+          }
+          .form{
+            padding-inline: 20px;
+            height: 70%;
+            text-align: center;
+          }
+          .form input {
+            border-bottom: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background: transparent;
+            margin-top: 20px;
+            font-size: 20px;
+            outline: none;
+            font-family: sans-serif;
+            align-items: center;
+            height: 55px;
+            width: 80%
+        }
+        #email-error{
+            display: inline-block;
+        }
+        .div1 {
+            border: 2px solid black;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            margin-inline: 50px;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        footer{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    /* after 1025px to 1200px */
+    @media screen and (min-width:1025px) and (max-width:1200px) {
+        .main{
+            /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
+             width: 100%;
+             height: 130vh;
+             display: flex;
+        }
+        .aside{
+             background-color: black;
+             width: 45%;
+          }
+          .aside i{
+            color: white;
+            margin-left: 20px;
+            margin-top: 30px;
+            padding: 20px
+        }
+        .aside h1{
+            color: white;
+            margin-top: 33%;
+            font-size: 80px;
+            padding-inline: 20px;
+            text-align: center;
+           }
+        .section{
+            background-color: rgb(214, 197, 175);
+            width: 65%;
+          }
+          .section h1{
+            padding-inline: 20px;
+            text-align: center;
+            font-size: 53px;
+          }
+          .form{
+            padding-inline: 20px;
+            height: 70%;
+            text-align: center;
+          }
+           .form input {
+            border-bottom: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background: transparent;
+            margin-top: 20px;
+            font-size: 20px;
+            outline: none;
+            font-family: sans-serif;
+            align-items: center;
+            height: 62px;
+            width: 80%
+        }
+        #email-error{
+            display: inline-block;
+        }
+        .div1 {
+            border: 2px solid black;
+            height: 168px;
+            display: flex;
+            align-items: center;
+            margin-inline: 50px;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        footer{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 30px;
+            text-align: center;
+        }
+        .liv{
+            font-size: 26px;
+        }
+    }
+    
