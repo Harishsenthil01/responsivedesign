@@ -66,12 +66,23 @@
         justify-content: center;
     }
     footer{
-        font-family: 'Franklin Gothic Medium';
-        font-size: 30px;
+        font-family: cursive;
+        font-size: 15px;
         text-align: center;
        
     }
-}
+    .btn{
+        text-align: center;
+        margin-top: -43px;
+    }
+    .btn button{
+        width: 76px;
+        border-radius: 25px;
+        background-color:  #e46fc1;
+        margin-top: -20px;
+    }
+    }
+
 /* design after 481px to 768px */
 @media  screen and (min-width:481px) and (max-width:768px) {
     .main{
@@ -137,9 +148,19 @@
             justify-content: space-evenly;
         }
          footer{
-            font-family: 'Franklin Gothic Medium';
-            font-size: 30px;
+            font-family: cursive;
+            font-size: 15px;
             text-align: center;
+        }
+        .btn{
+            text-align: center;
+            margin-top: -27px;
+        }
+        .btn button{
+            width: 76px;
+            border-radius: 25px;
+            background-color:  #e46fc1;
+            margin-top: -20px;
         }
 }
     /* media queries after 769px to 1024px */
@@ -209,9 +230,19 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: 'Franklin Gothic Medium';
-            font-size: 30px;
+            font-family: cursive;
+            font-size: 15px;
             text-align: center;
+        }
+        .btn{
+            text-align: center;
+            margin-top: -34px;
+        }
+        .btn button{
+            width: 76px;
+            border-radius: 25px;
+            background-color:  #e46fc1;
+            margin-top: -20px;
         }
     }
     /* after 1025px to 1200px */
@@ -280,12 +311,22 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: 'Franklin Gothic Medium';
-            font-size: 30px;
+            font-family: cursive;
+            font-size: 15px;
             text-align: center;
         }
         .liv{
             font-size: 26px;
+        }
+        .btn{
+            text-align: center;
+            margin-top: -40px;
+        }
+        .btn button{
+            width: 76px;
+            border-radius: 25px;
+            background-color:  #e46fc1;
+            margin-top: 40px;
         }
     }
     /* 1201 and more */
@@ -354,12 +395,21 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: 'Franklin Gothic Medium';
-            font-size: 30px;
+            font-family: cursive;
+            font-size: 15px;
             text-align: center;
         }
         .liv{
             font-size: 26px;
+        }
+        .btn{
+            text-align: center;
+        }
+        .btn button{
+            width: 76px;
+            border-radius: 25px;
+            background-color: #e46fc1;
+            margin-top: 40px;
         }
     }
     
