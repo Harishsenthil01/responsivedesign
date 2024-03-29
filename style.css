@@ -76,10 +76,11 @@
         margin-top: -43px;
     }
     .btn button{
-        width: 76px;
-        border-radius: 25px;
-        background-color:  #e46fc1;
+        width: 100px;
+        border-radius: 6px;
+        background-color:  lightgray;
         margin-top: -20px;
+        height: 33px;
     }
     }
 
@@ -157,10 +158,11 @@
             margin-top: -27px;
         }
         .btn button{
-            width: 76px;
-            border-radius: 25px;
-            background-color:  #e46fc1;
+            width: 100px;
+            border-radius: 6px;
+            background-color:  lightgray;
             margin-top: -20px;
+            height: 33px;
         }
 }
     /* media queries after 769px to 1024px */
@@ -184,7 +186,7 @@
         .aside h1{
             color: white;
             margin-top: 33%;
-            font-size: 56px;
+            font-size: 50px;
             padding-inline: 20px;
             text-align: center;
            }
@@ -196,7 +198,7 @@
           .section h1{
             padding-inline: 20px;
             text-align: center;
-            font-size: 50px;
+            font-size: 40px;
           }
           .form{
             padding-inline: 20px;
@@ -239,10 +241,11 @@
             margin-top: -34px;
         }
         .btn button{
-            width: 76px;
-            border-radius: 25px;
-            background-color:  #e46fc1;
+            width: 100px;
+            border-radius: 6px;
+            background-color: lightgray;
             margin-top: -20px;
+            height: 33px;
         }
     }
     /* after 1025px to 1200px */
@@ -323,10 +326,11 @@
             margin-top: -40px;
         }
         .btn button{
-            width: 76px;
-            border-radius: 25px;
-            background-color:  #e46fc1;
+            width: 100px;
+            border-radius: 6px;
+            background-color: lightgray;
             margin-top: 40px;
+            height: 33px;
         }
     }
     /* 1201 and more */
@@ -350,7 +354,7 @@
            .aside h1{
             color: white;
             margin-top: 22%;
-            font-size: 100px;
+            font-size: 70px;
             padding-inline: 20px;
             text-align: center;
            }
@@ -361,7 +365,8 @@
           .section h1{
             padding-inline: 20px;
             text-align: center;
-            font-size: 70px;
+            font-size: 50px;
+            font-family: Helvetica;
           }
           .form{
             padding-inline: 20px;
@@ -406,10 +411,11 @@
             text-align: center;
         }
         .btn button{
-            width: 76px;
-            border-radius: 25px;
-            background-color: #e46fc1;
+            width: 100px;
+            border-radius: 6px;
+            background-color: lightgray;
             margin-top: 40px;
+            height: 33px;
         }
     }
     
