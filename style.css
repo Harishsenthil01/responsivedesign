@@ -189,6 +189,8 @@
           .aside{
              background-color: black;
              width: 30%;
+             height: 100%;
+             position: fixed;
           }
           .aside i{
             color: white;
@@ -198,8 +200,8 @@
         }
         .aside h1{
             color: white;
-            margin-top: 50%;
-            font-size: 50px;
+            margin-top: 30%;
+            font-size: 45px;
             padding-inline: 20px;
             text-align: center;
             font-family: "Poppins";
@@ -208,6 +210,7 @@
           .section{
             background-color: rgb(214, 197, 175);
             width: 70%;
+            margin-left: 30%;
           }
           .section h1{
             padding-inline: 20px;
@@ -277,6 +280,8 @@
         .aside{
              background-color: black;
              width: 45%;
+             height: 100%;
+             position: fixed;
           }
           .aside i{
             color: white;
@@ -286,8 +291,8 @@
         }
         .aside h1{
             color: white;
-            margin-top: 33%;
-            font-size: 80px;
+            margin-top: 20%;
+            font-size: 70px;
             padding-inline: 20px;
             text-align: center;
             font-family: "Poppins";
@@ -295,6 +300,7 @@
         .section{
             background-color: rgb(214, 197, 175);
             width: 65%;
+            margin-left: 44%;
           }
           .section h1{
             padding-inline: 20px;
@@ -363,9 +369,11 @@
              height: 155vh;
              display: flex;
         }
-        .aside{
+        .main .aside{
              background-color: black;
              width: 45%;
+             position: fixed;
+             height: 100%;
           }
           .aside i{
             color: white;
@@ -384,6 +392,7 @@
         .section{
             background-color: rgb(214, 197, 175);
             width: 65%;
+            margin-left: 45%;
           }
           .section h1{
             padding-inline: 20px;
