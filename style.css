@@ -3,17 +3,20 @@
     padding: 0;
 
 }
+
 @media  screen and (max-width: 480px) {
      body{
         width: 100%;
-        height: 100vh;
         display: flex;
+        /* height: 100vh; */
      }
      .main{
        /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
         width: 100%;
-        height: 130vh;
+        background-color: rgb(214, 197, 175);
         display: flex;
+        height: 850px;
+       
      }
      .aside{
         background-color: black;
@@ -21,12 +24,14 @@
         display: none;
      }
      .section{
-        background-color: rgb(214, 197, 175);
+        
         width: 100%;
      }
      .section h1{
         padding-inline: 20px;
         text-align: center;
+        margin-top: 30px;
+        font-family: "Poppins";
      }
      .form{
         padding-inline: 20px;
@@ -66,14 +71,15 @@
         justify-content: center;
     }
     footer{
-        font-family: cursive;
+        font-family: "Poppins";
         font-size: 15px;
         text-align: center;
+        margin-top: 60px;
        
     }
     .btn{
         text-align: center;
-        margin-top: -43px;
+        margin-top: 20px;
     }
     .btn button{
         width: 100px;
@@ -81,6 +87,7 @@
         background-color:  lightgray;
         margin-top: -20px;
         height: 33px;
+        font-family: "Poppins";
     }
     }
 
@@ -89,18 +96,20 @@
     .main{
         /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
          width: 100%;
-         height: 130vh;
+         height: 165vh;
          display: flex;
+         background-color: rgb(214, 197, 175);
     }
     .aside{
         background-color: black;
         width: 20%;
+        display: none;
     }
     .aside i{
             color: white;
             margin-left: 20px;
             margin-top: 30px;
-            padding: 20px
+            padding: 20px;
     }
     .aside h1{
             color: white;
@@ -108,18 +117,21 @@
             font-size: 44px;
             padding-inline: 20px;
             text-align: center;
+            font-family: "Poppins";
            }
            .section{
             background-color: rgb(214, 197, 175);
-            width: 80%;
+            width: 100%;
           }
           .section h1{
             padding-inline: 20px;
             text-align: center;
+            margin-top: 30px;
+            font-family: "Poppins";
           }
           .form{
             padding-inline: 20px;
-            height: 70%;
+            height: 78%;
             text-align: center;
           }
           .form input {
@@ -131,9 +143,8 @@
             margin-top: 20px;
             font-size: 20px;
             outline: none;
-            font-family: sans-serif;
             align-items: center;
-            height: 55px;
+            height: 82px;
             width: 75%
         }
         #email-error{
@@ -141,7 +152,7 @@
         }
         .div1 {
             border: 2px solid black;
-            height: 150px;
+            height: 200px;
             display: flex;
             align-items: center;
             margin-inline: 50px;
@@ -149,13 +160,14 @@
             justify-content: space-evenly;
         }
          footer{
-            font-family: cursive;
+            font-family: "Poppins";
             font-size: 15px;
             text-align: center;
+            margin-top: 60px;
         }
         .btn{
             text-align: center;
-            margin-top: -27px;
+            margin-top: 20px;
         }
         .btn button{
             width: 100px;
@@ -163,6 +175,7 @@
             background-color:  lightgray;
             margin-top: -20px;
             height: 33px;
+            font-family: "Poppins";
         }
 }
     /* media queries after 769px to 1024px */
@@ -170,7 +183,7 @@
         .main{
             /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
              width: 100%;
-             height: 130vh;
+             height: 168vh;
              display: flex;
           }
           .aside{
@@ -185,10 +198,11 @@
         }
         .aside h1{
             color: white;
-            margin-top: 33%;
+            margin-top: 50%;
             font-size: 50px;
             padding-inline: 20px;
             text-align: center;
+            font-family: "Poppins";
            }
         
           .section{
@@ -199,10 +213,12 @@
             padding-inline: 20px;
             text-align: center;
             font-size: 40px;
+            margin-top: 30px;
+            font-family: "Poppins";
           }
           .form{
             padding-inline: 20px;
-            height: 70%;
+            height: 75%;
             text-align: center;
           }
           .form input {
@@ -216,7 +232,7 @@
             outline: none;
             font-family: sans-serif;
             align-items: center;
-            height: 55px;
+            height: 96px;
             width: 80%
         }
         #email-error{
@@ -224,7 +240,7 @@
         }
         .div1 {
             border: 2px solid black;
-            height: 150px;
+            height: 200px;
             display: flex;
             align-items: center;
             margin-inline: 50px;
@@ -232,13 +248,14 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: cursive;
+            font-family: "Poppins";
             font-size: 15px;
             text-align: center;
+            margin-top: 100px;
         }
         .btn{
             text-align: center;
-            margin-top: -34px;
+            margin-top: 20px;
         }
         .btn button{
             width: 100px;
@@ -246,6 +263,7 @@
             background-color: lightgray;
             margin-top: -20px;
             height: 33px;
+            font-family: "Poppins";
         }
     }
     /* after 1025px to 1200px */
@@ -253,7 +271,7 @@
         .main{
             /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
              width: 100%;
-             height: 130vh;
+             height: 168vh;
              display: flex;
         }
         .aside{
@@ -272,6 +290,7 @@
             font-size: 80px;
             padding-inline: 20px;
             text-align: center;
+            font-family: "Poppins";
            }
         .section{
             background-color: rgb(214, 197, 175);
@@ -281,6 +300,8 @@
             padding-inline: 20px;
             text-align: center;
             font-size: 53px;
+            margin-top: 30px;
+            font-family: "Poppins";
           }
           .form{
             padding-inline: 20px;
@@ -314,7 +335,7 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: cursive;
+            font-family: "Poppins";
             font-size: 15px;
             text-align: center;
         }
@@ -323,7 +344,7 @@
         }
         .btn{
             text-align: center;
-            margin-top: -40px;
+            margin-top: -20px;
         }
         .btn button{
             width: 100px;
@@ -331,6 +352,7 @@
             background-color: lightgray;
             margin-top: 40px;
             height: 33px;
+            font-family: "Poppins";
         }
     }
     /* 1201 and more */
@@ -338,7 +360,7 @@
         .main{
             /* / background-image: linear-gradient(to right, black 0%,black 44%, rgb(226, 221, 212) 10%,rgb(226, 221, 212) 100%); */
              width: 100%;
-             height: 130vh;
+             height: 155vh;
              display: flex;
         }
         .aside{
@@ -357,6 +379,7 @@
             font-size: 70px;
             padding-inline: 20px;
             text-align: center;
+            font-family: "Poppins";
            }
         .section{
             background-color: rgb(214, 197, 175);
@@ -366,11 +389,13 @@
             padding-inline: 20px;
             text-align: center;
             font-size: 50px;
-            font-family: Helvetica;
+           
+            margin-top: 30px;
+            font-family: "Poppins";
           }
           .form{
             padding-inline: 20px;
-            height: 70%;
+            height: 78%;
             text-align: center;
           }
            .form input {
@@ -400,9 +425,10 @@
             justify-content: space-evenly;
         }
         footer{
-            font-family: cursive;
+            font-family: "Poppins";
             font-size: 15px;
             text-align: center;
+            margin-top: 20px;
         }
         .liv{
             font-size: 26px;
@@ -416,6 +442,7 @@
             background-color: lightgray;
             margin-top: 40px;
             height: 33px;
+            font-family: "Poppins";
         }
     }
     
